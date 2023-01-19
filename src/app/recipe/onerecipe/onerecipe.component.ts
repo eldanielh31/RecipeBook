@@ -37,4 +37,7 @@ export class OnerecipeComponent {
   onClickIngredient(index) {
     this.listIngredients[index].done = !this.listIngredients[index].done;
   }
+
+
+
 }

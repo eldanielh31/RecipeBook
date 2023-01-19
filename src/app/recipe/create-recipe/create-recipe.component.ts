@@ -37,6 +37,8 @@ export class CreateRecipeComponent implements OnInit {
 
     this.recipeService.addRecipe(recipe);
 
+    this.router.navigate(['/home']);
+
   }
 
   /**
