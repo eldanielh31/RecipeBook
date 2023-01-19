@@ -34,6 +34,9 @@ export class HomeComponent implements OnInit{
     recipes. */
     filter ? this.recipes = listRecipes.filter(e => e.name.toLowerCase().includes(filter.toLowerCase())) : this.recipes = listRecipes;
 
+    /* Reversing the order of the recipes. */
+    this.recipes?.reverse();
+
     this.isRecipes = this.recipes?.length === 0;
     
   }
