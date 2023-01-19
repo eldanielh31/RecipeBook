@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { RecipeModel } from './recipe-model';
 import { StorageService } from '../storage.service';
 
@@ -8,7 +7,7 @@ import { StorageService } from '../storage.service';
 })
 export class RecipeService {
  
-  constructor(private http: HttpClient, private storageService : StorageService) { }
+  constructor(private storageService : StorageService) { }
 
   getRecipes(){
     return JSON.parse(this.storageService.getData('recipes') ? this.storageService.getData('recipes') : '[]');

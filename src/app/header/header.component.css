@@ -1,7 +1,3 @@
-header {
-    /* border-radius: 1px solid; */
-}
-
 .create-recipe {
     font-size: 150%;
     color: chocolate;
@@ -17,7 +13,6 @@ header {
 
 .reddit-text {
     font-size: 40%;
-    /* font-family: 'Indie Flower', cursive; */
     font-family: 'Alkalami', serif;
 }
 
