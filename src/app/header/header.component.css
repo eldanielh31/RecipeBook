@@ -1,0 +1,30 @@
+header {
+    border-radius: 1px solid;
+}
+
+.create-recipe {
+    font-size: 150%;
+    color: chocolate;
+    margin-right: 1em;
+    margin-top: 10px;
+}
+
+.reddit-icon-svg {
+    height: 50px;
+    padding: 8px 8px 8px 0;
+    width: 50px;
+}
+
+.reddit-text {
+    font-size: 40%;
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Alkalami', serif;
+}
+
+.fa-pepper-hot {
+    color: red;
+}
+
+.logo {
+    text-decoration: none;
+}

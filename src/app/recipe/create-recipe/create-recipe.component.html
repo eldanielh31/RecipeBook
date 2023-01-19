@@ -1,0 +1,35 @@
+<div class="container-fluid bg">
+    <br>
+    <br>
+    <form (ngSubmit)="createRecipe()" [formGroup]="recipeForm">
+    <div class="row">
+        <div class="col-6">
+                <label for="ingredients">Ingredients (Each step separated by -)</label>
+                <textarea class="form-control" rows="8" id="ingredients" name="ingredients"
+                    formControlName = "ingredients"></textarea>
+
+            <div class="row">
+                <div class="col-12">
+                        <label for="description">Description:</label>
+                        <input type="text" class="form-control" id="description" name="description" formControlName = "description">
+                        <label for="picUrl">Pic Url:</label>
+                        <input type="text" class="form-control" id="picUrl" name="picUrl" formControlName = "picUrl">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" formControlName="name">
+                </div>
+                
+            </div>
+            <div>
+                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+            </div>
+        </div>
+        <div class="col-6">
+
+                <label for="steps">Steps (Each step separated by -)</label>
+                <textarea class="form-control" rows="15" id="steps" name="steps" formControlName = "steps"></textarea>
+        </div>
+    </div>
+    </form>
+
+
+</div>
